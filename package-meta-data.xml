@@ -1,0 +1,16 @@
+<ncs-package xmlns="http://tail-f.com/ns/ncs-packages">
+  <name>nso-smart-home</name>
+  <package-version>1.0</package-version>
+  <description>A service for home automation within the NSO.</description>
+  <ncs-min-version>5.5</ncs-min-version>
+
+  <!-- It's possible to add more components to the -->
+  <!-- same package, multiple services, data providers etc -->
+
+  <component>
+    <name>nso-smart-home</name>
+    <callback>
+      <java-class-name>com.uselessmnemonic.nsosmarthome.ServiceMain</java-class-name>
+    </callback>
+  </component>
+</ncs-package>

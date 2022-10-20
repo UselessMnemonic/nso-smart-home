@@ -1,0 +1,10 @@
+.vscode/
+load-dir/
+private-jar/
+shared-jar/
+**/ncsc-out/
+**/build/
+**/namespaces/
+*.tar.gz
+test/ncs/
+**/lux_logs
